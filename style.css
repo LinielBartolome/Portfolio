@@ -45,7 +45,7 @@ body {
 }
 
 .logo {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: var(--text-color);
   font-weight: 800;
   cursor: pointer;
@@ -160,7 +160,7 @@ section {
   color: var(--text-color);
   background-color: var(--main-color);
   transform: scale(1.2) translateY(-5px);
-  box-shadow: 0 0 25px var(--main-color);
+  box-shadow: 0 0 5px var(--main-color);
 }
 
 .btn-group {
@@ -172,7 +172,7 @@ section {
   display: inline-block;
   padding: 1rem 3rem;
   background-color: var(--main-color);
-  box-shadow: 0 0 25px var(--main-color);
+  box-shadow: 0 0 5px var(--main-color);
   border-radius: 3rem;
   font-size: 1.8rem;
   color: black;
@@ -183,7 +183,8 @@ section {
 
 .btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color);
+  box-shadow: 0 0 5px var(--main-color), 0 0 5px var(--main-color);
+  
 }
 
 .btn-group a:nth-of-type(2) {
@@ -453,6 +454,9 @@ section {
   }
   .gradient-btn {
     display: none;
+  }
+  body {
+    overflow-x: hidden;
   }
   .home {
     flex-direction: column-reverse;
