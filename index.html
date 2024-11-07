@@ -26,8 +26,8 @@
       <nav class="navbar">
         <a href="#home">Home</a>
         <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
+        <a href="#services">Projects</a>
+        <a href="#projects">Skills</a>
         <a href="#contact">Contact</a>
       </nav>
 
@@ -35,9 +35,9 @@
     </header>
 
     <!-- Home section -->
-    <section class="home" id="home">
+    <section class="section home" id="home">
       <div class="home-content">
-        <h1>Hi, it's <span>Liniel</span></h1>
+        <h3>Hi, it's Liniel<span></span></h3>
         <h3>I'm a <span>Web Developer</span></h3>
         <p>
           Aspiring IT professional with a Bachelor's Degree in Information
@@ -55,6 +55,11 @@
             <i class="bx bx-envelope"></i>
           </a>
 
+          <!-- Call -->
+          <a href="tel:+09984368370">
+            <i class="bx bxs-phone"></i>
+          </a>
+
           <!-- Github -->
           <a href="https://github.com/LinielBartolome">
             <i class="bx bxl-github"></i>
@@ -70,22 +75,20 @@
 
         <!-- Button group -->
         <div class="btn-group">
-          <a href="CV_Liniel_Bartolome.pdf" class="btn">
-            <i class="fas fa-download"></i> CV
-          </a>
-          <a href="#contact" class="btn">Contact</a>
+          <a href="Files/CV_Liniel_Bartolome.pdf" class="btn"> Download CV </a>
         </div>
       </div>
 
+      <!-- Image -->
       <div class="home-img">
-        <img src="Liniel.JPG" alt="" />
+        <img src="Images/second-image.JPG" alt="" />
       </div>
     </section>
 
     <!-- About section -->
-    <section class="about" id="about">
+    <section class="section about slide-left" id="about">
       <div class="about-img">
-        <img src="Liniel.JPG" alt="" />
+        <img src="" alt="" />
       </div>
 
       <div class="about-content">
@@ -98,12 +101,23 @@
           On-the-Job Training (OJT), has given me a solid foundation in coding,
           problem-solving, and project management.
         </p>
-        <a href="#" class="btn">Read More</a>
+
+        <!-- Hidden content to show when clicked -->
+        <div class="extra-content">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
+            laudantium eveniet veniam odit saepe voluptatem ea, aperiam a
+            veritatis asperiores vitae animi doloribus, harum deserunt iure.
+            Eligendi maxime molestiae assumenda.
+          </p>
+        </div>
+        <button class="btn-read-more">Read More</button>
+        <!-- <a href="#" class="btn read-more-btn">Read More</a> -->
       </div>
     </section>
 
     <!-- Services section -->
-    <section class="services" id="services">
+    <!-- <section class="section services slide-right" id="services">
       <h2 class="heading">Services</h2>
 
       <div class="services-container">
@@ -146,10 +160,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Projects section -->
-    <section class="projects" id="projects">
+    <!-- <section class="projects" id="projects">
       <h2 class="heading">Projects</h2>
 
       <div class="projects-box">
@@ -162,7 +176,6 @@
             corporis, repudiandae ex, ducimus veniam. Dolores, rerum. Ullam nisi
             animi explicabo? Alias.
           </p>
-          <!-- <div class="btn">Review Project</div> -->
         </div>
 
         <div class="project-card">
@@ -174,10 +187,9 @@
             corporis, repudiandae ex, ducimus veniam. Dolores, rerum. Ullam nisi
             animi explicabo? Alias.
           </p>
-          <!-- <div class="btn">Review Project</div> -->
         </div>
 
-        <!-- <div class="project-card">
+        <div class="project-card">
           <img src="quantify.jpg" alt="" />
           <h3>Project 3</h3>
           <p>
@@ -187,12 +199,12 @@
             animi explicabo? Alias.
           </p>
           <div class="btn">Review Project</div>
-        </div> -->
+        </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Contact section -->
-    <section class="contact" id="contact">
+    <!-- <section class="contact" id="contact">
       <h2 class="heading">Contact <span> Me</span></h2>
 
       <form action="#">
@@ -219,17 +231,17 @@
           <input type="submit" value="Send Message" class="btn" />
         </div>
       </form>
-    </section>
+    </section> -->
 
     <!-- Footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="social-icons">
-        <!-- Github -->
+        Github
         <a href="#">
           <i class="bx bxl-github"></i>
         </a>
 
-        <!-- LinkedIn -->
+        LinkedIn
         <a href="#">
           <i class="bx bxl-linkedin-square"></i>
         </a>
@@ -254,7 +266,7 @@
       </ul>
 
       <p class="copyright">© Liniel Bartolome | All Rights Reserved</p>
-    </footer>
+    </footer> -->
 
     <script src="script.js"></script>
   </body>
